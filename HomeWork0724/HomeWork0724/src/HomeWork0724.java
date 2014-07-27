@@ -1,7 +1,7 @@
 
 public class HomeWork0724 {
 public static void main(String[] args) {
-	String name = "";
+	String name = "鈴村";
 	KappeStopper stop = new KappeStopper();
 	stop.check(name);
 
@@ -14,6 +14,7 @@ class KappeStopper{
 			try {
 				throw  new SuzumuraException();
 			} catch (SuzumuraException e) {
+				
 				e.printStackTrace();
 			}
 				}
